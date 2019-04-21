@@ -32,5 +32,9 @@ class InstructionMenu extends GameScene{
         addInstruction.addLongPressEvent(AddHint);
         addInstruction.addClickEvent(AddHint);
         this.addComponent(addInstruction,-1);
+
+        //backButton();
+        
     }
+
 }
